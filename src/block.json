@@ -1,0 +1,23 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "create-block/framer-motion-block",
+	"version": "0.1.0",
+	"title": "Framer Motion",
+	"category": "widgets",
+	"icon": "smiley",
+	"description": "Simple Gutenberg block animated with Framer Motion.",
+	"supports": {
+		"html": false
+	},
+	"textdomain": "framer-motion-block",
+	"editorScript": "file:./index.js",
+	"style": "file:./style-index.css",
+  	"script": "file:./render.js",
+	"attributes": {
+	  "message": {
+		"type": "string",
+		"default": ""
+	  }
+	}
+}

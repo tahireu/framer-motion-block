@@ -1,0 +1,25 @@
+// Breakpoints
+
+.banner {
+  z-index: 100;
+  position: relative;
+
+  .banner-row {
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+
+	.row-title,
+	.row-letter {
+	  font-size: 6rem;
+	  font-weight: 400;
+	  position: relative;
+	  letter-spacing: -0.2rem;
+	  display: inline-block;
+	  white-space: nowrap;
+	  @media (max-width: 480px) {
+		font-size: 13rem;
+	  }
+	}
+  }
+}
