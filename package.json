@@ -1,8 +1,8 @@
 {
-	"name": "animated-hero",
+	"name": "framer-motion-block",
 	"version": "0.1.0",
-	"description": "Example static block scaffolded with Create Block tool.",
-	"author": "The WordPress Contributors",
+	"description": "Simple Gutenberg block animated with Framer Motion.",
+	"author": "Tahireu",
 	"license": "GPL-2.0-or-later",
 	"main": "build/index.js",
 	"scripts": {
