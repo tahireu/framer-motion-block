@@ -4,8 +4,8 @@
 	"name": "create-block/framer-motion-block",
 	"version": "0.1.0",
 	"title": "Framer Motion",
-	"category": "widgets",
-	"icon": "smiley",
+	"category": "tahireu",
+	"icon": "buddicons-activity",
 	"description": "Simple Gutenberg block animated with Framer Motion.",
 	"supports": {
 		"html": false
